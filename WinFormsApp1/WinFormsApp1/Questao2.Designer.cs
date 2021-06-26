@@ -30,11 +30,11 @@ namespace Questoes
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtCotacaoDolar = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtValorEmDolaresConvercao = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtValorEmDolaresConvertido = new System.Windows.Forms.TextBox();
             this.btnVoltarMenu = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -48,13 +48,13 @@ namespace Questoes
             this.label1.TabIndex = 0;
             this.label1.Text = "Cotação do dólar:";
             // 
-            // textBox1
+            // txtCotacaoDolar
             // 
-            this.textBox1.Location = new System.Drawing.Point(165, 28);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtCotacaoDolar.Location = new System.Drawing.Point(165, 28);
+            this.txtCotacaoDolar.Name = "txtCotacaoDolar";
+            this.txtCotacaoDolar.Size = new System.Drawing.Size(100, 23);
+            this.txtCotacaoDolar.TabIndex = 1;
+            this.txtCotacaoDolar.TextChanged += new System.EventHandler(this.txtCotacaoDolar_TextChanged);
             // 
             // label2
             // 
@@ -66,12 +66,13 @@ namespace Questoes
             this.label2.TabIndex = 2;
             this.label2.Text = "Valor em dólares para conversão:";
             // 
-            // textBox2
+            // txtValorEmDolaresConvercao
             // 
-            this.textBox2.Location = new System.Drawing.Point(257, 71);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 3;
+            this.txtValorEmDolaresConvercao.Location = new System.Drawing.Point(257, 71);
+            this.txtValorEmDolaresConvercao.Name = "txtValorEmDolaresConvercao";
+            this.txtValorEmDolaresConvercao.Size = new System.Drawing.Size(100, 23);
+            this.txtValorEmDolaresConvercao.TabIndex = 3;
+            this.txtValorEmDolaresConvercao.TextChanged += new System.EventHandler(this.txtValorEmDolaresConvercao_TextChanged);
             // 
             // label3
             // 
@@ -83,12 +84,13 @@ namespace Questoes
             this.label3.TabIndex = 4;
             this.label3.Text = "Valor em dólares:";
             // 
-            // textBox3
+            // txtValorEmDolaresConvertido
             // 
-            this.textBox3.Location = new System.Drawing.Point(160, 116);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 23);
-            this.textBox3.TabIndex = 5;
+            this.txtValorEmDolaresConvertido.Location = new System.Drawing.Point(160, 116);
+            this.txtValorEmDolaresConvertido.Name = "txtValorEmDolaresConvertido";
+            this.txtValorEmDolaresConvertido.Size = new System.Drawing.Size(100, 23);
+            this.txtValorEmDolaresConvertido.TabIndex = 5;
+            this.txtValorEmDolaresConvertido.TextChanged += new System.EventHandler(this.txtValorEmDolaresConvertido_TextChanged);
             // 
             // btnVoltarMenu
             // 
@@ -99,6 +101,7 @@ namespace Questoes
             this.btnVoltarMenu.TabIndex = 8;
             this.btnVoltarMenu.Text = "Voltar para o menu";
             this.btnVoltarMenu.UseVisualStyleBackColor = false;
+            this.btnVoltarMenu.Click += new System.EventHandler(this.btnVoltarMenu_Click);
             // 
             // Questao2
             // 
@@ -107,11 +110,11 @@ namespace Questoes
             this.BackColor = System.Drawing.SystemColors.Info;
             this.ClientSize = new System.Drawing.Size(427, 335);
             this.Controls.Add(this.btnVoltarMenu);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtValorEmDolaresConvertido);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtValorEmDolaresConvercao);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtCotacaoDolar);
             this.Controls.Add(this.label1);
             this.Location = new System.Drawing.Point(40, 71);
             this.Name = "Questao2";
@@ -123,11 +126,13 @@ namespace Questoes
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtCotacaoDolar;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtEmDolares;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtValorDolares;
         private System.Windows.Forms.Button btnVoltarMenu;
+        private System.Windows.Forms.TextBox txtValorEmDolaresConvercao;
+        private System.Windows.Forms.TextBox txtValorEmDolaresConvertido;
     }
 }
