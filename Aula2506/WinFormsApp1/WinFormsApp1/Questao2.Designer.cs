@@ -80,9 +80,9 @@ namespace Questoes
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.Location = new System.Drawing.Point(40, 116);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(114, 19);
+            this.label3.Size = new System.Drawing.Size(98, 19);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Valor em dólares:";
+            this.label3.Text = "Valor em reais:";
             // 
             // txtValorEmDolaresConvertido
             // 
@@ -90,7 +90,6 @@ namespace Questoes
             this.txtValorEmDolaresConvertido.Name = "txtValorEmDolaresConvertido";
             this.txtValorEmDolaresConvertido.Size = new System.Drawing.Size(100, 23);
             this.txtValorEmDolaresConvertido.TabIndex = 5;
-            this.txtValorEmDolaresConvertido.TextChanged += new System.EventHandler(this.txtValorEmDolaresConvertido_TextChanged);
             // 
             // btnVoltarMenu
             // 
@@ -128,7 +127,6 @@ namespace Questoes
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtCotacaoDolar;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtEmDolares;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtValorDolares;
         private System.Windows.Forms.Button btnVoltarMenu;

@@ -10,9 +10,10 @@ namespace Questoes
 {
     public partial class Questao2 : Form
     {
-        double cotacaoDolar = 0;
-        double valorEmDolaresConvercao = 0;
-        double ValorEmDolaresConvertido = 0;
+        double cotacaoDolar = 0.0;
+        double valorEmDolaresConvercao = 0.0;
+        double converterValor = 0.0;
+      
         public Questao2()
         {
             InitializeComponent();
@@ -28,19 +29,19 @@ namespace Questoes
 
         private void txtCotacaoDolar_TextChanged(object sender, EventArgs e)
         {
-            cotacaoDolar = int.Parse(txtCotacaoDolar.Text);
+            cotacaoDolar = double.Parse(txtCotacaoDolar.Text);
         }
 
         private void txtValorEmDolaresConvercao_TextChanged(object sender, EventArgs e)
         {
-            valorEmDolaresConvercao = int.Parse(txtValorEmDolaresConvercao.Text);
-
+            valorEmDolaresConvercao = double.Parse(txtValorEmDolaresConvercao.Text);
+            txtValorEmDolaresConvertido.Text = ConverterParaReal(cotacaoDolar, valorEmDolaresConvercao).ToString();
         }
 
-        private void txtValorEmDolaresConvertido_TextChanged(object sender, EventArgs e)
+        private double ConverterParaReal(double cod, double vdc)
         {
-            ValorEmDolaresConvertido = int.Parse(txtValorEmDolaresConvertido.Text);
-            //txtValorEmDolaresConvertido.Text = ConverterParaReal ( cotacaoDolar, valorEmDolaresConvercao).ToString();
+            converterValor = (cotacaoDolar * valorEmDolaresConvercao);
+            return converterValor;
         }
         //private double ConverterParaReal(double vad, double var)
     }

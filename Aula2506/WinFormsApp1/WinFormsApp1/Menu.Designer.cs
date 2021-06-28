@@ -32,6 +32,7 @@ namespace Questoes
             this.label1 = new System.Windows.Forms.Label();
             this.btnQuestao1 = new System.Windows.Forms.Button();
             this.btnQuestão2 = new System.Windows.Forms.Button();
+            this.btnQuestao3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -65,17 +66,28 @@ namespace Questoes
             this.btnQuestão2.UseVisualStyleBackColor = true;
             this.btnQuestão2.Click += new System.EventHandler(this.btnQuestão2_Click);
             // 
+            // btnQuestao3
+            // 
+            this.btnQuestao3.Location = new System.Drawing.Point(12, 186);
+            this.btnQuestao3.Name = "btnQuestao3";
+            this.btnQuestao3.Size = new System.Drawing.Size(75, 23);
+            this.btnQuestao3.TabIndex = 3;
+            this.btnQuestao3.Text = "3";
+            this.btnQuestao3.UseVisualStyleBackColor = true;
+            this.btnQuestao3.Click += new System.EventHandler(this.btnQuestao3_Click);
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(427, 335);
+            this.Controls.Add(this.btnQuestao3);
             this.Controls.Add(this.btnQuestão2);
             this.Controls.Add(this.btnQuestao1);
             this.Controls.Add(this.label1);
             this.Name = "Menu";
-            this.Text = "Menu";
+            this.Text = " ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -86,5 +98,6 @@ namespace Questoes
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnQuestao1;
         private System.Windows.Forms.Button btnQuestão2;
+        private System.Windows.Forms.Button btnQuestao3;
     }
 }

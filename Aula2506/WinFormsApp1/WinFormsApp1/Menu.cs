@@ -27,5 +27,12 @@ namespace Questoes
             this.Hide();
             questao2.Show();
         }
+
+        private void btnQuestao3_Click(object sender, EventArgs e)
+        {
+            var questao3 = new Form1();
+            this.Hide();
+            questao3.Show();
+        }
     }
 }
