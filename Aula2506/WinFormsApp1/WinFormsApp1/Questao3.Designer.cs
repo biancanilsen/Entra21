@@ -1,7 +1,7 @@
 ﻿
 namespace Questoes
 {
-    partial class Form1
+    partial class Cadastro_Alunos
     {
         /// <summary>
         /// Required designer variable.

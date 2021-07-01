@@ -8,12 +8,12 @@ using System.Windows.Forms;
 
 namespace Questoes
 {
-    public partial class Form1 : Form
+    public partial class Cadastro_Alunos : Form
     {
         int idade = 0;
         string classificacao;
 
-        public Form1()
+        public Cadastro_Alunos()
         {
             InitializeComponent();
         }
