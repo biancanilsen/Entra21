@@ -47,10 +47,10 @@ namespace Questoes
             this.label10 = new System.Windows.Forms.Label();
             this.txtNomeResponsavel2 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.mtbResponsavel2 = new System.Windows.Forms.MaskedTextBox();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnNovo = new System.Windows.Forms.Button();
             this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -229,13 +229,6 @@ namespace Questoes
             this.label11.TabIndex = 18;
             this.label11.Text = "CPF:";
             // 
-            // mtbResponsavel2
-            // 
-            this.mtbResponsavel2.Location = new System.Drawing.Point(352, 245);
-            this.mtbResponsavel2.Name = "mtbResponsavel2";
-            this.mtbResponsavel2.Size = new System.Drawing.Size(141, 23);
-            this.mtbResponsavel2.TabIndex = 19;
-            // 
             // btnSalvar
             // 
             this.btnSalvar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
@@ -264,16 +257,24 @@ namespace Questoes
             this.maskedTextBox1.Size = new System.Drawing.Size(141, 23);
             this.maskedTextBox1.TabIndex = 22;
             // 
+            // maskedTextBox2
+            // 
+            this.maskedTextBox2.Location = new System.Drawing.Point(357, 245);
+            this.maskedTextBox2.Mask = "000.000.000-0";
+            this.maskedTextBox2.Name = "maskedTextBox2";
+            this.maskedTextBox2.Size = new System.Drawing.Size(141, 23);
+            this.maskedTextBox2.TabIndex = 23;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(710, 375);
+            this.Controls.Add(this.maskedTextBox2);
             this.Controls.Add(this.maskedTextBox1);
             this.Controls.Add(this.btnNovo);
             this.Controls.Add(this.btnSalvar);
-            this.Controls.Add(this.mtbResponsavel2);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.txtNomeResponsavel2);
             this.Controls.Add(this.label10);
@@ -317,9 +318,9 @@ namespace Questoes
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox txtNomeResponsavel2;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.MaskedTextBox mtbResponsavel2;
         private System.Windows.Forms.Button btnSalvar;
         private System.Windows.Forms.Button btnNovo;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
     }
 }
