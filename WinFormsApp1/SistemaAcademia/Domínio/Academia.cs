@@ -6,33 +6,36 @@ namespace SistemaAcademia.Domínio
 {
     class Academia
     {
-        public string Nome { get; set; }
-        public List<Aluno> Alunos { get; private set; }
+        public List<Aluno> ListaAlunos { get; set; }
 
         public Academia()
         {
-            Alunos = new List<Aluno>();
+            ListaAlunos = new List<Aluno>();
         }
-        public void AdicionaAluno(Aluno aluno)
+
+        public void AdicionarAluno(string nome, string telefone, string cpf, string turno, string modalidade)
         {
-           Alunos.Add(aluno);
+            ListaAlunos.Add(new Aluno(nome, telefone, cpf, turno, modalidade));
         }
-        public void AdicionaAluno(string nome, string turma, string modalidade, bool paga)
+
+        public void AtualizarAluno(
+            int indice,
+            string nome,
+            string telefone,
+            string cpf,
+            string turno,
+            string modalidade)
         {
-            Alunos.Add(new Aluno(nome, turma, modalidade, paga));
+            ListaAlunos[indice].Nome = nome;
+            ListaAlunos[indice].Telefone = telefone;
+            ListaAlunos[indice].CPF = cpf;
+            ListaAlunos[indice].Turno = turno;
+            ListaAlunos[indice].Modalidade = modalidade;
         }
-        public void RemoveAluno(Aluno aluno)
+        public void DeletarAluno(int indice)
         {
-            Alunos.Remove(aluno);
+            ListaAlunos.RemoveAt(indice);
         }
-        public void SalvaAluno(Aluno aluno)
-        {
-            foreach (var aluno1 in alunoss)
-            {
-                if (aluno.Nome.Equals(aluno.Nome))
-                {
-                    aluno1.Turma =alunos.Turma;
-                    aluno1.Paga = alunos.Paga;
-                }
+    }
 }
 

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Entra21\\Documents\\Bianca\\Bianca Nilsen\\repos\\Entra21\\WinFormsApp1\\WinFormsApp1\\Questoes.csproj",
+      "projectUniqueName": "C:\\Users\\Entra21\\Source\\Repos\\Entra21\\WinFormsApp1\\WinFormsApp1\\Questoes.csproj",
       "projectName": "Questoes",
-      "projectPath": "C:\\Users\\Entra21\\Documents\\Bianca\\Bianca Nilsen\\repos\\Entra21\\WinFormsApp1\\WinFormsApp1\\Questoes.csproj",
+      "projectPath": "C:\\Users\\Entra21\\Source\\Repos\\Entra21\\WinFormsApp1\\WinFormsApp1\\Questoes.csproj",
       "packagesPath": "C:\\Users\\Entra21\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Entra21\\Documents\\Bianca\\Bianca Nilsen\\repos\\Entra21\\WinFormsApp1\\WinFormsApp1\\obj\\",
+      "outputPath": "C:\\Users\\Entra21\\Source\\Repos\\Entra21\\WinFormsApp1\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Entra21\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -7,8 +7,8 @@ namespace SistemaAcademia.Domínio
     class Pessoa
     {
         public string Nome { get; set; }
-        public double CPF { get; set; }
-        public double RG { get; set; }
+        public string Telefone { get; set; }
+        public string CPF{ get; set; }
     }
 
 }
