@@ -32,6 +32,7 @@ namespace SistemaAcademia.Domínio
             ListaAlunos[indice].Turno = turno;
             ListaAlunos[indice].Modalidade = modalidade;
         }
+
         public void DeletarAluno(int indice)
         {
             ListaAlunos.RemoveAt(indice);

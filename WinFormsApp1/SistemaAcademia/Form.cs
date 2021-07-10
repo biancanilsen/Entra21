@@ -38,9 +38,10 @@ namespace SistemaAcademia
         private void btnAdicionar_Click(object sender, EventArgs e)
         {
 
-            txtNome.Text = "";
-            mtbTelefone.Text = "";
-            mtbCPF.Text = "";
+            txtNome.Clear();
+            mtbTelefone.Clear();
+            mtbCPF.Clear();
+            txtMensalidaade.Clear();
             cbTurno.SelectedItem = null;
             cbModalidade.SelectedItem = null;
             novo = true;
@@ -51,7 +52,7 @@ namespace SistemaAcademia
         {
             if (novo)
             {
-                academia.AdicionarAluno(
+                    academia.AdicionarAluno(
                     txtNome.Text,
                     mtbTelefone.Text,
                     mtbCPF.Text,
@@ -62,7 +63,7 @@ namespace SistemaAcademia
             {
                 if (listAlunos.SelectedIndex >= 0)
                 {
-                    academia.AtualizarAluno(
+                        academia.AtualizarAluno(
                         listAlunos.SelectedIndex,
                         txtNome.Text,
                         mtbTelefone.Text,
@@ -93,5 +94,33 @@ namespace SistemaAcademia
             }
         }
 
+        private void cbModalidade_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbModalidade.SelectedIndex >= 0)
+            {
+                switch (cbModalidade.SelectedItem)
+                {
+                    case "Musculação":
+                        txtMensalidaade.Text = "R$: 100,00";
+                        break;
+                    case "Dança":
+                        txtMensalidaade.Text = "R$: 50,00";
+                        break;
+                    case "Cross Fit":
+                        txtMensalidaade.Text = "R$: 200,00";
+                        break;
+                }
+            }
+        }
+
+        private void Form_Load(object sender, EventArgs e)
+        {
+            btnAdicionar_Click(sender, e);
+        }
+
+        private void btnPagar_Click(object sender, EventArgs e)
+        {
+            academia.ListaAlunos[listAlunos.SelectedIndex].pago = true;
+        }
     }
 }

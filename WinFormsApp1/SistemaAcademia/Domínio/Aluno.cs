@@ -6,22 +6,30 @@ namespace SistemaAcademia.Domínio
 {
     class Aluno : Pessoa
     {
-        
         public string Turno { get; set; }
         public string Modalidade { get; set; }
+        public bool pago { get; set; }
 
         public Aluno(string nome, string telefone, string cpf, string turno, string modalidade)
         {
             Nome = nome;
-            Telefone = telefone;           
+            Telefone = telefone;
             CPF = cpf;
             Turno = turno;
             Modalidade = modalidade;
+            pago = false;
         }
+
         public override string ToString()
         {
-            return $"{Nome} - {Turno} - {Modalidade}";
+            if(pago)
+
+            return $"{Nome} - {Modalidade} - pago";
+
+            else
+            
+            return $"{Nome} - {Modalidade} - não pago";
+
         }
     }
-
 }

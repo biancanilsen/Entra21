@@ -126,6 +126,7 @@ namespace SistemaAcademia
             this.cbModalidade.Name = "cbModalidade";
             this.cbModalidade.Size = new System.Drawing.Size(114, 23);
             this.cbModalidade.TabIndex = 5;
+            this.cbModalidade.SelectedIndexChanged += new System.EventHandler(this.cbModalidade_SelectedIndexChanged);
             // 
             // mtbTelefone
             // 
@@ -168,6 +169,7 @@ namespace SistemaAcademia
             this.btnPagar.TabIndex = 6;
             this.btnPagar.Text = "Pagar";
             this.btnPagar.UseVisualStyleBackColor = true;
+            this.btnPagar.Click += new System.EventHandler(this.btnPagar_Click);
             // 
             // btnAdicionar
             // 
@@ -241,6 +243,7 @@ namespace SistemaAcademia
             this.Controls.Add(this.label1);
             this.Name = "Form";
             this.Text = "Mensalidade";
+            this.Load += new System.EventHandler(this.Form_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
