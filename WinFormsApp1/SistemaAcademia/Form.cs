@@ -52,24 +52,31 @@ namespace SistemaAcademia
         {
             if (novo)
             {
-                    academia.AdicionarAluno(
+                academia.AdicionarAluno(
                     txtNome.Text,
                     mtbTelefone.Text,
                     mtbCPF.Text,
                     cbTurno.SelectedItem.ToString(),
                     cbModalidade.SelectedItem.ToString());
+
+                
+
+
+
+                   
             }
             else
             {
                 if (listAlunos.SelectedIndex >= 0)
                 {
-                        academia.AtualizarAluno(
+                    academia.AtualizarAluno(
                         listAlunos.SelectedIndex,
                         txtNome.Text,
                         mtbTelefone.Text,
                         mtbCPF.Text,
                         cbTurno.SelectedItem.ToString(),
                         cbModalidade.SelectedItem.ToString());
+                    
                 }
 
             }

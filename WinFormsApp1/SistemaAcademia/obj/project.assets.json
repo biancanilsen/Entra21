@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Entra21\\Source\\Repos\\Entra21\\WinFormsApp1\\SistemaAcademia\\SistemaAcademia.csproj",
+      "projectUniqueName": "C:\\Users\\Entra21\\Source\\Repos\\Entra21a\\WinFormsApp1\\SistemaAcademia\\SistemaAcademia.csproj",
       "projectName": "SistemaAcademia",
-      "projectPath": "C:\\Users\\Entra21\\Source\\Repos\\Entra21\\WinFormsApp1\\SistemaAcademia\\SistemaAcademia.csproj",
+      "projectPath": "C:\\Users\\Entra21\\Source\\Repos\\Entra21a\\WinFormsApp1\\SistemaAcademia\\SistemaAcademia.csproj",
       "packagesPath": "C:\\Users\\Entra21\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Entra21\\Source\\Repos\\Entra21\\WinFormsApp1\\SistemaAcademia\\obj\\",
+      "outputPath": "C:\\Users\\Entra21\\Source\\Repos\\Entra21a\\WinFormsApp1\\SistemaAcademia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Entra21\\AppData\\Roaming\\NuGet\\NuGet.Config",
