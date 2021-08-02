@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bianca.nilsen\\Source\\Repos\\biancanilsen\\Entra21\\WinFormsApp1\\WinFormsApp1\\Questoes.csproj",
-      "projectName": "Questoes",
-      "projectPath": "C:\\Users\\bianca.nilsen\\Source\\Repos\\biancanilsen\\Entra21\\WinFormsApp1\\WinFormsApp1\\Questoes.csproj",
+      "projectUniqueName": "C:\\Users\\bianca.nilsen\\Source\\Repos\\biancanilsen\\Entra21\\WinFormsApp1\\WinFormsApp1\\Menu.csproj",
+      "projectName": "Menu",
+      "projectPath": "C:\\Users\\bianca.nilsen\\Source\\Repos\\biancanilsen\\Entra21\\WinFormsApp1\\WinFormsApp1\\Menu.csproj",
       "packagesPath": "C:\\Users\\bianca.nilsen\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\bianca.nilsen\\Source\\Repos\\biancanilsen\\Entra21\\WinFormsApp1\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",

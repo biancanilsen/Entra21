@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bianca.nilsen\\Source\\Repos\\biancanilsen\\Entra21\\Aula2506\\WinFormsApp1\\WinFormsApp1\\Questoes.csproj": {}
+    "C:\\Users\\bianca.nilsen\\Source\\Repos\\biancanilsen\\Entra21\\WinFormsApp1\\WinFormsApp1\\Menu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bianca.nilsen\\Source\\Repos\\biancanilsen\\Entra21\\Aula2506\\WinFormsApp1\\WinFormsApp1\\Questoes.csproj": {
+    "C:\\Users\\bianca.nilsen\\Source\\Repos\\biancanilsen\\Entra21\\WinFormsApp1\\WinFormsApp1\\Menu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bianca.nilsen\\Source\\Repos\\biancanilsen\\Entra21\\Aula2506\\WinFormsApp1\\WinFormsApp1\\Questoes.csproj",
-        "projectName": "Questoes",
-        "projectPath": "C:\\Users\\bianca.nilsen\\Source\\Repos\\biancanilsen\\Entra21\\Aula2506\\WinFormsApp1\\WinFormsApp1\\Questoes.csproj",
+        "projectUniqueName": "C:\\Users\\bianca.nilsen\\Source\\Repos\\biancanilsen\\Entra21\\WinFormsApp1\\WinFormsApp1\\Menu.csproj",
+        "projectName": "Menu",
+        "projectPath": "C:\\Users\\bianca.nilsen\\Source\\Repos\\biancanilsen\\Entra21\\WinFormsApp1\\WinFormsApp1\\Menu.csproj",
         "packagesPath": "C:\\Users\\bianca.nilsen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bianca.nilsen\\Source\\Repos\\biancanilsen\\Entra21\\Aula2506\\WinFormsApp1\\WinFormsApp1\\obj\\",
+        "outputPath": "C:\\Users\\bianca.nilsen\\Source\\Repos\\biancanilsen\\Entra21\\WinFormsApp1\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bianca.nilsen\\AppData\\Roaming\\NuGet\\NuGet.Config",
